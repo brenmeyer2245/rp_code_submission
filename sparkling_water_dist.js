@@ -19,7 +19,7 @@ function sparklingWaterDist() {
   }
 
   //Determine the difference between the last element of the order array and 13
-  result = -(drinkDrawOrder[drinkDrawOrder.length - 1] - 13);
+  difference = -(drinkDrawOrder[drinkDrawOrder.length - 1] - 13);
   //add the difference to the starting point(1)
-  return (1 + result) % 13;
+  return (1 + difference) % 13;
 }
