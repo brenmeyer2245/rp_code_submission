@@ -1,7 +1,7 @@
 function mappingRobot(arr) {
   //Store values for North, South, West, East
   let N = 0, W = 0, S = 0, E = 0;
-  currentDirection =  "west"
+  let currentDirection =  "west"
 
   arr.forEach(input => {
     //extract direction string and value
